@@ -34,7 +34,10 @@ git push dokku master
 - [Dokku CLI and other clients](http://dokku.viewdocs.io/dokku/community/clients/)
 - [Dokku source on GitHub](https://github.com/dokku/dokku/)
 - [Buildpacks](http://dokku.viewdocs.io/dokku/deployment/methods/buildpacks/)
+- [DigitalOcean Dokku Image](https://m.do.co/c/ef444ad5d43f)
+  - *I recommend at least a 2 GB server for large builds, but for smaller projects 1GB will work just fine.*
 
+![img](http://blog.sethbergman.com/content/images/2017/02/DO-dokku.png)
 
 Meta
 ----
