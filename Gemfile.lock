@@ -26,3 +26,9 @@ DEPENDENCIES
   maruku
   sinatra
   thin
+
+RUBY VERSION
+   ruby 2.2.4p230
+
+BUNDLED WITH
+   1.14.3

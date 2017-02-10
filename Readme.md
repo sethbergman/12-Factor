@@ -1,21 +1,38 @@
 The Twelve-Factor App
 =====================
 
-Source for the content app running at: http://12factor.stackriot.com
+DEMO:
+[12factor.stackriot.com](http://12factor.stackriot.com)
 
 Development
 -----------
 
     bundle install
     foreman start
-    open http://localhost:5000
+    [Visit localhost:5000](http://localhost:5000)
 
 Production deploy
 -----------------
 
-    heroku create
-    git push heroku master
-    heroku open
+This application uses the 12 Factor methodology for building applications which run as a service.
+Learn more about __<a href="http://12factor.stackriot.com" target="_blank">The Twelve Factors</a>__.
+
+I use [Dokku](http://dokku.viewdocs.io/dokku/), a Docker powered mini-Heroku like PaaS that I run on a Digital Ocean Ubuntu server.
+
+### Build Steps
+
+```
+git remote add dokku dokku@dokku-server.com:app_name
+git add --all
+git commit -m "Deploy to dokku"
+git push dokku master
+```
+
+### Additional Resources
+[Dokku CLI and other clients](http://dokku.viewdocs.io/dokku/community/clients/)
+[Dokku source on GitHub](https://github.com/dokku/dokku/)
+[Buildpacks](http://dokku.viewdocs.io/dokku/deployment/methods/buildpacks/)
+
 
 Meta
 ----
