@@ -30,10 +30,10 @@ git push dokku master
 ```
 
 ### Additional Resources
-[Dokku](http://dokku.viewdocs.io/dokku/)
-[Dokku CLI and other clients](http://dokku.viewdocs.io/dokku/community/clients/)
-[Dokku source on GitHub](https://github.com/dokku/dokku/)
-[Buildpacks](http://dokku.viewdocs.io/dokku/deployment/methods/buildpacks/)
+- [Dokku](http://dokku.viewdocs.io/dokku/)
+- [Dokku CLI and other clients](http://dokku.viewdocs.io/dokku/community/clients/)
+- [Dokku source on GitHub](https://github.com/dokku/dokku/)
+- [Buildpacks](http://dokku.viewdocs.io/dokku/deployment/methods/buildpacks/)
 
 
 Meta
